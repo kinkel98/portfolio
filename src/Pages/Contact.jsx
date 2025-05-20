@@ -13,9 +13,9 @@ import { useEffect } from "react";
 const Contact = () => {
   return (
     <div id="contact" className="contacti">
-      <h1 className="cont">Contact me</h1>
+      <h1 className="cont">Contact me now</h1>
       <div className="contact-container">
-        <div className="contact-form">
+        {/* <div className="contact-form">
           <h2>Contact Me</h2>
           <p>Interested in working together? Send me a message!</p>
           <form id="contact-form">
@@ -28,7 +28,7 @@ const Contact = () => {
             ></textarea>
             <button type="submit">Send Message</button>
           </form>
-        </div>
+        </div> */}
         <div className="contact-info">
           <h3>Get in Touch</h3>
           <span>
