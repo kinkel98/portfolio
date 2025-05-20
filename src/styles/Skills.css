@@ -1,0 +1,82 @@
+.Skills {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: transparent;
+    color: #ffffff;
+  }
+  
+  .Skills h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .Skills p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #b0b0b0;
+  }
+  
+  .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 120px;
+  }
+  
+  .skill:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px orangered;
+  }
+  
+  .skill .skill-icon {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Specific logo colors with increased specificity */
+  .skill .html-icon {
+    color: #e34c26 !important; /* HTML5 orange */
+  }
+  
+  .skill .css-icon {
+    color: #264de4 !important; /* CSS3 blue */
+  }
+  
+  .skill .js-icon {
+    color: #f0db4f !important; /* JavaScript yellow */
+  }
+  
+  .skill .react-icon {
+    color: #61dafb !important; /* React light blue */
+  }
+  
+  .skill .python-icon {
+    color: #306998 !important; /* Python blue */
+  }
+  
+  .skill .git-icon {
+    color: #f1502f !important; /* Git red */
+  }
+  
+  .skill .django-icon {
+    color: green; /* Django green */
+  }
+  
+  .skill span {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #e0e0e0;
+  }

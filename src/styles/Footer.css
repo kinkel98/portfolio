@@ -1,0 +1,32 @@
+.footer{
+    text-align: center;
+    font-size: 18px;
+    color: whitesmoke;
+    /* position: fixed; */
+}
+.cv-button {
+    position: fixed;
+    bottom: 20px;
+    left: 92%;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    z-index: 1000;
+    transition:  0.3s ease-in-out;
+  }
+  
+  .cv-button:hover {
+    background-color: darkred;
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 864px) {
+    .cv-button {
+      bottom: 70px; /* Move up slightly to avoid overlapping with mobile footer */
+      left: 80%; /* Reduce left margin for smaller screens */
+      padding: 8px 16px; /* Smaller padding for mobile */
+      font-size: 14px; /* Smaller text for mobile */
+    }
+  }

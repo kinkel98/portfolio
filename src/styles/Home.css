@@ -1,0 +1,48 @@
+.home{
+    font-size: 20px;
+    margin-top: 100vh;
+    color: whitesmoke;
+    padding: 5px;
+    margin: 20px;
+    height: 20%;
+    margin-top: 5%;
+    background-color: black;
+}
+/* Home.css */
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  .intro {
+    overflow: hidden; /* Ensures text stays within bounds */
+    white-space: nowrap; /* Prevents text wrapping */
+    border-right: 2px solid; /* Mimics a cursor */
+    animation: typing 5s steps(40, end) 3, blink  0.5s step-end 3;
+    animation-fill-mode: forwards; /* Maintains the final state */
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @media screen and (max-width: 864px) {
+    .home{
+        font-size: 15px;
+        /* padding: 10px; */
+        margin: 10px;
+        height: auto;
+    }
+    .intro {
+        font-size: 15px;
+        width: 100%;
+        white-space: normal;
+        animation: typing 2s steps(40, end) 1, blink  0.5s step-end 1;
+
+      }
+  }

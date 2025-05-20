@@ -1,0 +1,14 @@
+*{
+    background-color: black;
+    /* color: white; */
+}
+ #home, #about, #projects, #contact{
+    /* height:80vh; */
+    padding: 20px;
+    scroll-behavior: smooth;
+    flex-direction: column;
+    
+}
+/* #contact{
+    height: 80vh;
+} */
