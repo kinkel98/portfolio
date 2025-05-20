@@ -7,7 +7,7 @@ import Tubeking from "../assets/imagesfold/Tubeking.png";
 const Projects = () => {
   return (
     <div id="projects" className="projects">
-      <h1>Projects</h1>
+      <h1>Projects </h1>
       <p>Here are some of my projects:</p>
 
       <div className="project-grid">
