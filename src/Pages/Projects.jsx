@@ -15,25 +15,25 @@ const Projects = () => {
           <img src={logowest} alt="An online baking website" />
           <h3>An Online Banking Website</h3>
           <p>A online banking website</p>
-          <a href="#" target="_blank">
+          {/* <a href="https://westglobalbanking.com/" target="_blank">
             View Project
-          </a>
+          </a> */}
         </div>
         <div className="project" data-category="web">
           <img src={weather} alt="An online baking website" />
           <h3> A Real Time Weather Website</h3>
           <p>A dynamic weather app built with React with use of API</p>
-          <a href="#" target="_blank">
+          {/* <a href="#" target="_blank">
             View Project
-          </a>
+          </a> */}
         </div>
         <div className="project" data-category="web">
           <img src={Tubeking} alt="An online baking website" />
           <h3>A Video Streaming Website</h3>
           <p>A responsive video streaming website/Replica of youtube</p>
-          <a href="#" target="_blank">
+          {/* <a href="#" target="_blank">
             View Project
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
