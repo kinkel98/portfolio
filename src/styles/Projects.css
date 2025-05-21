@@ -29,10 +29,10 @@
     margin: 0 auto;
 
   }
-  .project-grid :hover{
+  /* .project-grid :hover{
     transform: translateY(-5px);
     box-shadow: 0 8px 12px orangered;
-  }
+  } */
   
   .project {
     /* background: #fff; */

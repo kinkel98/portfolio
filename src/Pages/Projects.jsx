@@ -14,7 +14,7 @@ const Projects = () => {
         <div className="project" data-category="web">
           <img src={logowest} alt="An online baking website" />
           <h3>An Online Banking Website</h3>
-          <p>A online banking website built with React</p>
+          <p>A online banking website</p>
           <a href="#" target="_blank">
             View Project
           </a>
