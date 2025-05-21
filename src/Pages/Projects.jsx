@@ -14,7 +14,7 @@ const Projects = () => {
         <div className="project" data-category="web">
           <img src={logowest} alt="An online baking website" />
           <h3>An Online Banking Website</h3>
-          <p>A online banking website</p>
+          <p>A online banking website built and fully responsive</p>
           {/* <a href="https://westglobalbanking.com/" target="_blank">
             View Project
           </a> */}
